@@ -1,0 +1,6 @@
+{
+  "name": "Financial Document Parser",
+  "description": "An assistant that extracts key financial attributes (date, amount, vendor, category, confidence score) from receipts, invoices, emails, and raw unstructured text using Gemini AI.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
