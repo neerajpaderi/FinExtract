@@ -211,7 +211,7 @@ async function startServer() {
 
       // Prompt to instruct the model to pay attention to details
       const response = await ai.models.generateContent({
-        model: "gemini-3.5-flash",
+        model: "gemini-2.5-flash",
         contents: contentsParts,
         config: {
           systemInstruction:

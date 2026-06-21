@@ -894,7 +894,7 @@ export default function App() {
                     {isParsing ? (
                       <>
                         <RefreshCw className="w-3.5 h-3.5 animate-spin text-teal-400" />
-                        Scanning content with Gemini 3.5 Flash...
+                        Scanning content with Gemini 2.5 Flash...
                       </>
                     ) : (
                       <>
@@ -1429,7 +1429,7 @@ export default function App() {
 
       {/* Footer Branding */}
       <footer className="border-t border-slate-850/60 py-4 px-6 text-center text-[10px] text-slate-500 font-mono mt-12 bg-slate-900/10">
-        FinExtract OCR Parser Engine &bull; Managed Securely on Cloud Run &bull; Powered by Google Gemini-3.5-Flash
+        FinExtract OCR Parser Engine &bull; Managed Securely on Cloud Run &bull; Powered by Google Gemini-2.5-Flash
       </footer>
     </div>
   );
